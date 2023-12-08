@@ -1,0 +1,65 @@
+/* Tags */
+body{
+    background-color: hsl(233, 47%, 7%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+main{
+    width: 70vw;
+    height: 55vh;
+    position: relative;
+    display: flex;
+}
+section{
+    width: 50%;
+    height: 100%;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section>h1{
+    font-size: 35px;
+    width: 80%;
+    margin-top: 5%;
+}
+section>p{
+    width: 80%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Classes */
+.img{
+    background: url("../images/image-header-desktop.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(277, 64%, 61%);
+}
+.img>div{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(275, 75%, 39%, 0.684);
+}
+.diff{
+    color: hsl(277, 64%, 61%);
+}
+.stats{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 13%;
+}
+.stats p{
+    color: hsla(0, 0%, 100%, 0.6);
+}
