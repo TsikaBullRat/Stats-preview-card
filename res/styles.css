@@ -63,3 +63,36 @@ section>p{
 .stats p{
     color: hsla(0, 0%, 100%, 0.6);
 }
+
+@media screen and (max-width: 376px){
+    main{
+        width: 90%;
+        height: 100%;
+        flex-direction: column-reverse;
+        border-radius: 25px;
+        margin-top: 35px;
+    }
+    section{
+        width: 100%;
+    }
+    section>h1{
+        width: 90%;
+        transform: scale(0.76);
+        text-align: center;
+    }
+    section>img{
+        border-radius: 25px;
+    }
+    .img{
+        background-image: url("../images/image-header-mobile.jpg");
+    }
+    .coltxt{
+        text-align: center;
+    }
+    .stats{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
